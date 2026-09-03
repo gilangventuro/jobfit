@@ -118,6 +118,19 @@ button {
   padding-inline: var(--space-8);
 }
 
+/* Header is position: fixed (Header.module.css), so it no longer reserves
+   space in normal flow — compensate here to keep page content from
+   starting underneath it. Values match .header's height per breakpoint. */
+main {
+  padding-top: 64px;
+}
+
+@media (min-width: 769px) {
+  main {
+    padding-top: 72px;
+  }
+}
+
 @media (min-width: 1280px) {
   .container {
     padding-inline: var(--space-6);

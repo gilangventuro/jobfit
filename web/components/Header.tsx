@@ -11,8 +11,6 @@ const NAV_LINKS = [
   { href: "/", label: "Beranda" },
   { href: "/produk", label: "Produk" },
   { href: "/harga", label: "Harga" },
-  { href: "/tentang-kami", label: "Tentang Kami" },
-  { href: "/#faq", label: "FAQ" },
   { href: "/panduan", label: "Panduan" },
   { href: "/kontak", label: "Kontak" },
 ] as const;
