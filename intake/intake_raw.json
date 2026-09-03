@@ -1,0 +1,1335 @@
+{
+  "colors": {
+    "primary": [
+      "#021A4B"
+    ],
+    "secondary": [
+      "#063549",
+      "#117599",
+      "#426FAF",
+      "#0E2C47",
+      "#005375",
+      "#437BB0",
+      "#1C4F7B",
+      "#437BBF",
+      "#2870AF",
+      "#0B5394",
+      "#14B5CF",
+      "#134F5C",
+      "#45678E",
+      "#45818E",
+      "#0C183D",
+      "#DC5641"
+    ],
+    "neutral": [
+      "#000000",
+      "#FFFFFF",
+      "#1B1B1B",
+      "#EEEEEE",
+      "#E5E5E5",
+      "#434343",
+      "#F3F3F3",
+      "#F9FBFD",
+      "#666666",
+      "#D0E0E3",
+      "#D9E9EA",
+      "#EFEFEF",
+      "#010000"
+    ]
+  },
+  "images": [
+    {
+      "file": "img_p0_12.jpg",
+      "page": 0,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p0_13.jpg",
+      "page": 0,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p0_15.jpg",
+      "page": 0,
+      "width": 1024,
+      "height": 1536,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p0_21.jpg",
+      "page": 0,
+      "width": 64,
+      "height": 64,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p0_23.jpg",
+      "page": 0,
+      "width": 136,
+      "height": 128,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p0_24.jpg",
+      "page": 0,
+      "width": 136,
+      "height": 128,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p0_25.jpg",
+      "page": 0,
+      "width": 2048,
+      "height": 887,
+      "nearby_heading": "Teknologi Cerdas Untuk Rekrutmen yang eﬁsien dan objektif."
+    },
+    {
+      "file": "img_p1_12.jpg",
+      "page": 1,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "MASALAH UMUM YANG TERJADI PADA PROSES REKRUTMEN"
+    },
+    {
+      "file": "img_p1_56.jpg",
+      "page": 1,
+      "width": 2048,
+      "height": 1720,
+      "nearby_heading": "MASALAH UMUM YANG TERJADI PADA PROSES REKRUTMEN"
+    },
+    {
+      "file": "img_p2_12.jpg",
+      "page": 2,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "STRESS-FREE SOLUTIONS"
+    },
+    {
+      "file": "img_p2_67.jpg",
+      "page": 2,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "STRESS-FREE SOLUTIONS"
+    },
+    {
+      "file": "img_p2_72.jpg",
+      "page": 2,
+      "width": 1024,
+      "height": 1536,
+      "nearby_heading": "STRESS-FREE SOLUTIONS"
+    },
+    {
+      "file": "img_p3_12.jpg",
+      "page": 3,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_85.jpg",
+      "page": 3,
+      "width": 128,
+      "height": 128,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_88.jpg",
+      "page": 3,
+      "width": 302,
+      "height": 302,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_89.jpg",
+      "page": 3,
+      "width": 625,
+      "height": 574,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_90.jpg",
+      "page": 3,
+      "width": 584,
+      "height": 533,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_92.jpg",
+      "page": 3,
+      "width": 324,
+      "height": 324,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_93.jpg",
+      "page": 3,
+      "width": 574,
+      "height": 625,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_94.jpg",
+      "page": 3,
+      "width": 548,
+      "height": 548,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_96.jpg",
+      "page": 3,
+      "width": 548,
+      "height": 548,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_98.jpg",
+      "page": 3,
+      "width": 663,
+      "height": 663,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_100.jpg",
+      "page": 3,
+      "width": 548,
+      "height": 548,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_101.jpg",
+      "page": 3,
+      "width": 614,
+      "height": 481,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_102.jpg",
+      "page": 3,
+      "width": 737,
+      "height": 568,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_104.jpg",
+      "page": 3,
+      "width": 491,
+      "height": 491,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_105.jpg",
+      "page": 3,
+      "width": 581,
+      "height": 114,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_106.jpg",
+      "page": 3,
+      "width": 438,
+      "height": 430,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p3_107.jpg",
+      "page": 3,
+      "width": 2048,
+      "height": 887,
+      "nearby_heading": "KEY JOBFIT SOFTWARE FEATURE"
+    },
+    {
+      "file": "img_p4_12.jpg",
+      "page": 4,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "Input Koresponden & Bulk Input"
+    },
+    {
+      "file": "img_p4_67.jpg",
+      "page": 4,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "Input Koresponden & Bulk Input"
+    },
+    {
+      "file": "img_p4_170.jpg",
+      "page": 4,
+      "width": 513,
+      "height": 1000,
+      "nearby_heading": "Input Koresponden & Bulk Input"
+    },
+    {
+      "file": "img_p4_171.jpg",
+      "page": 4,
+      "width": 946,
+      "height": 2048,
+      "nearby_heading": "Dashboard Informatif"
+    },
+    {
+      "file": "img_p4_172.jpg",
+      "page": 4,
+      "width": 513,
+      "height": 1000,
+      "nearby_heading": "Input Koresponden & Bulk Input"
+    },
+    {
+      "file": "img_p4_173.jpg",
+      "page": 4,
+      "width": 946,
+      "height": 2048,
+      "nearby_heading": "Dashboard Informatif"
+    },
+    {
+      "file": "img_p5_12.jpg",
+      "page": 5,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "Hasil Test"
+    },
+    {
+      "file": "img_p5_189.jpg",
+      "page": 5,
+      "width": 505,
+      "height": 1000,
+      "nearby_heading": "Hasil Test"
+    },
+    {
+      "file": "img_p5_190.jpg",
+      "page": 5,
+      "width": 575,
+      "height": 2048,
+      "nearby_heading": "Hasil Test"
+    },
+    {
+      "file": "img_p6_12.jpg",
+      "page": 6,
+      "width": 2048,
+      "height": 1050,
+      "nearby_heading": "Tes yang Tersedia di Jobﬁt"
+    },
+    {
+      "file": "img_p7_206.jpg",
+      "page": 7,
+      "width": 2048,
+      "height": 1153,
+      "nearby_heading": ""
+    },
+    {
+      "file": "img_p8_215.jpg",
+      "page": 8,
+      "width": 2048,
+      "height": 1155,
+      "nearby_heading": ""
+    },
+    {
+      "file": "img_p9_225.jpg",
+      "page": 9,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "INITIAL PROFESSIONAL SERVICES (One time only)"
+    },
+    {
+      "file": "img_p9_67.jpg",
+      "page": 9,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "INITIAL PROFESSIONAL SERVICES (One time only)"
+    },
+    {
+      "file": "img_p9_226.jpg",
+      "page": 9,
+      "width": 1000,
+      "height": 663,
+      "nearby_heading": "INITIAL PROFESSIONAL SERVICES (One time only)"
+    },
+    {
+      "file": "img_p9_227.jpg",
+      "page": 9,
+      "width": 889,
+      "height": 225,
+      "nearby_heading": "INITIAL PROFESSIONAL SERVICES (One time only)"
+    },
+    {
+      "file": "img_p10_225.jpg",
+      "page": 10,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "SUBSCRIPTION PRICE - ONLINE PSYCHOLOGY TEST"
+    },
+    {
+      "file": "img_p10_67.jpg",
+      "page": 10,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "SUBSCRIPTION PRICE - ONLINE PSYCHOLOGY TEST"
+    },
+    {
+      "file": "img_p10_244.jpg",
+      "page": 10,
+      "width": 1000,
+      "height": 663,
+      "nearby_heading": "SUBSCRIPTION PRICE - ONLINE PSYCHOLOGY TEST"
+    },
+    {
+      "file": "img_p10_245.jpg",
+      "page": 10,
+      "width": 636,
+      "height": 258,
+      "nearby_heading": "SUBSCRIPTION PRICE - ONLINE PSYCHOLOGY TEST"
+    },
+    {
+      "file": "img_p10_246.jpg",
+      "page": 10,
+      "width": 636,
+      "height": 258,
+      "nearby_heading": "SUBSCRIPTION PRICE - ONLINE PSYCHOLOGY TEST"
+    },
+    {
+      "file": "img_p10_247.jpg",
+      "page": 10,
+      "width": 636,
+      "height": 258,
+      "nearby_heading": "SUBSCRIPTION PRICE - ONLINE PSYCHOLOGY TEST"
+    },
+    {
+      "file": "img_p11_266.jpg",
+      "page": 11,
+      "width": 2048,
+      "height": 1151,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_267.jpg",
+      "page": 11,
+      "width": 529,
+      "height": 294,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_269.jpg",
+      "page": 11,
+      "width": 657,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_270.jpg",
+      "page": 11,
+      "width": 657,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_271.jpg",
+      "page": 11,
+      "width": 742,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_272.jpg",
+      "page": 11,
+      "width": 742,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_273.jpg",
+      "page": 11,
+      "width": 717,
+      "height": 980,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_274.jpg",
+      "page": 11,
+      "width": 657,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_275.jpg",
+      "page": 11,
+      "width": 657,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_276.jpg",
+      "page": 11,
+      "width": 742,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_277.jpg",
+      "page": 11,
+      "width": 742,
+      "height": 254,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_278.jpg",
+      "page": 11,
+      "width": 657,
+      "height": 267,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_279.jpg",
+      "page": 11,
+      "width": 657,
+      "height": 267,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_280.jpg",
+      "page": 11,
+      "width": 742,
+      "height": 267,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_281.jpg",
+      "page": 11,
+      "width": 529,
+      "height": 281,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_282.jpg",
+      "page": 11,
+      "width": 529,
+      "height": 281,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p11_283.jpg",
+      "page": 11,
+      "width": 529,
+      "height": 294,
+      "nearby_heading": "Tidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan SUBSCRIPTION PRICE"
+    },
+    {
+      "file": "img_p12_340.jpg",
+      "page": 12,
+      "width": 1000,
+      "height": 554,
+      "nearby_heading": "Dapatkan Free 100 Kuota Psikotest Khusus hingga 31 Oktober 2025!"
+    },
+    {
+      "file": "img_p12_225.jpg",
+      "page": 12,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "Dapatkan Free 100 Kuota Psikotest Khusus hingga 31 Oktober 2025!"
+    },
+    {
+      "file": "img_p12_344.jpg",
+      "page": 12,
+      "width": 2048,
+      "height": 2048,
+      "nearby_heading": "Dapatkan Free 100 Kuota Psikotest Khusus hingga 31 Oktober 2025!"
+    },
+    {
+      "file": "img_p12_345.jpg",
+      "page": 12,
+      "width": 113,
+      "height": 113,
+      "nearby_heading": "Dapatkan Free 100 Kuota Psikotest Khusus hingga 31 Oktober 2025!"
+    },
+    {
+      "file": "img_p12_15.jpg",
+      "page": 12,
+      "width": 1024,
+      "height": 1536,
+      "nearby_heading": "Dapatkan Free 100 Kuota Psikotest Khusus hingga 31 Oktober 2025!"
+    },
+    {
+      "file": "img_p13_361.jpg",
+      "page": 13,
+      "width": 1000,
+      "height": 554,
+      "nearby_heading": "FASILITAS  PREMIUM TERBATAS"
+    },
+    {
+      "file": "img_p13_13.jpg",
+      "page": 13,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "FASILITAS  PREMIUM TERBATAS"
+    },
+    {
+      "file": "img_p13_363.jpg",
+      "page": 13,
+      "width": 1024,
+      "height": 1536,
+      "nearby_heading": "FASILITAS  PREMIUM TERBATAS"
+    },
+    {
+      "file": "img_p14_376.jpg",
+      "page": 14,
+      "width": 1000,
+      "height": 584,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_378.jpg",
+      "page": 14,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_379.jpg",
+      "page": 14,
+      "width": 512,
+      "height": 506,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_380.jpg",
+      "page": 14,
+      "width": 1000,
+      "height": 161,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_21.jpg",
+      "page": 14,
+      "width": 64,
+      "height": 64,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_382.jpg",
+      "page": 14,
+      "width": 1000,
+      "height": 142,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_383.jpg",
+      "page": 14,
+      "width": 1000,
+      "height": 275,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_384.jpg",
+      "page": 14,
+      "width": 1367,
+      "height": 2048,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_385.jpg",
+      "page": 14,
+      "width": 88,
+      "height": 88,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_386.jpg",
+      "page": 14,
+      "width": 512,
+      "height": 512,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_387.jpg",
+      "page": 14,
+      "width": 88,
+      "height": 88,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_388.jpg",
+      "page": 14,
+      "width": 512,
+      "height": 512,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_389.jpg",
+      "page": 14,
+      "width": 88,
+      "height": 88,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_390.jpg",
+      "page": 14,
+      "width": 512,
+      "height": 512,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_391.jpg",
+      "page": 14,
+      "width": 88,
+      "height": 88,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_392.jpg",
+      "page": 14,
+      "width": 512,
+      "height": 512,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p14_393.jpg",
+      "page": 14,
+      "width": 2048,
+      "height": 887,
+      "nearby_heading": "LET’S COLLABORATE"
+    },
+    {
+      "file": "img_p15_448.jpg",
+      "page": 15,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": ""
+    },
+    {
+      "file": "img_p15_449.jpg",
+      "page": 15,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": ""
+    },
+    {
+      "file": "img_p15_393.jpg",
+      "page": 15,
+      "width": 2048,
+      "height": 887,
+      "nearby_heading": ""
+    },
+    {
+      "file": "img_p16_461.jpg",
+      "page": 16,
+      "width": 1174,
+      "height": 845,
+      "nearby_heading": "MASALAH UMUM YANG TERJADI PADA PROSES REKRUTMEN"
+    },
+    {
+      "file": "img_p16_463.jpg",
+      "page": 16,
+      "width": 2048,
+      "height": 1151,
+      "nearby_heading": "MASALAH UMUM YANG TERJADI PADA PROSES REKRUTMEN"
+    },
+    {
+      "file": "img_p17_473.jpg",
+      "page": 17,
+      "width": 113,
+      "height": 155,
+      "nearby_heading": "MANUAL TEST JOBFIT.id"
+    },
+    {
+      "file": "img_p17_474.jpg",
+      "page": 17,
+      "width": 121,
+      "height": 144,
+      "nearby_heading": "MANUAL TEST JOBFIT.id"
+    },
+    {
+      "file": "img_p17_475.jpg",
+      "page": 17,
+      "width": 100,
+      "height": 125,
+      "nearby_heading": "MANUAL TEST JOBFIT.id"
+    },
+    {
+      "file": "img_p17_476.jpg",
+      "page": 17,
+      "width": 106,
+      "height": 125,
+      "nearby_heading": "MANUAL TEST JOBFIT.id"
+    },
+    {
+      "file": "img_p18_494.jpg",
+      "page": 18,
+      "width": 1174,
+      "height": 845,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p18_495.jpg",
+      "page": 18,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p18_497.jpg",
+      "page": 18,
+      "width": 819,
+      "height": 671,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p18_498.jpg",
+      "page": 18,
+      "width": 447,
+      "height": 460,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p19_508.jpg",
+      "page": 19,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "ONLINE PSYCHOLOGICAL TEST"
+    },
+    {
+      "file": "img_p19_495.jpg",
+      "page": 19,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p19_509.jpg",
+      "page": 19,
+      "width": 767,
+      "height": 1000,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p19_510.jpg",
+      "page": 19,
+      "width": 477,
+      "height": 611,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p19_511.jpg",
+      "page": 19,
+      "width": 1000,
+      "height": 491,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p19_512.jpg",
+      "page": 19,
+      "width": 531,
+      "height": 251,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p20_508.jpg",
+      "page": 20,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p20_495.jpg",
+      "page": 20,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p20_528.jpg",
+      "page": 20,
+      "width": 526,
+      "height": 635,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p20_529.jpg",
+      "page": 20,
+      "width": 264,
+      "height": 568,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p20_530.jpg",
+      "page": 20,
+      "width": 265,
+      "height": 566,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p21_508.jpg",
+      "page": 21,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p21_495.jpg",
+      "page": 21,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p21_539.jpg",
+      "page": 21,
+      "width": 363,
+      "height": 349,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p21_540.jpg",
+      "page": 21,
+      "width": 651,
+      "height": 330,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p22_461.jpg",
+      "page": 22,
+      "width": 1174,
+      "height": 845,
+      "nearby_heading": "EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p22_463.jpg",
+      "page": 22,
+      "width": 2048,
+      "height": 1151,
+      "nearby_heading": "EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p23_508.jpg",
+      "page": 23,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p23_495.jpg",
+      "page": 23,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p23_553.jpg",
+      "page": 23,
+      "width": 1879,
+      "height": 805,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p23_554.jpg",
+      "page": 23,
+      "width": 1845,
+      "height": 602,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p23_555.jpg",
+      "page": 23,
+      "width": 1838,
+      "height": 813,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p24_508.jpg",
+      "page": 24,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p24_495.jpg",
+      "page": 24,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p24_564.jpg",
+      "page": 24,
+      "width": 1860,
+      "height": 849,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p24_565.jpg",
+      "page": 24,
+      "width": 1864,
+      "height": 803,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p25_508.jpg",
+      "page": 25,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p25_495.jpg",
+      "page": 25,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p25_573.jpg",
+      "page": 25,
+      "width": 1039,
+      "height": 2048,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p25_574.jpg",
+      "page": 25,
+      "width": 1039,
+      "height": 2048,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p26_461.jpg",
+      "page": 26,
+      "width": 1174,
+      "height": 845,
+      "nearby_heading": "COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p26_463.jpg",
+      "page": 26,
+      "width": 2048,
+      "height": 1151,
+      "nearby_heading": "COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p27_508.jpg",
+      "page": 27,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p27_495.jpg",
+      "page": 27,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p28_508.jpg",
+      "page": 28,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p28_495.jpg",
+      "page": 28,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p29_508.jpg",
+      "page": 29,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p29_495.jpg",
+      "page": 29,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p29_601.jpg",
+      "page": 29,
+      "width": 1365,
+      "height": 768,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p29_602.jpg",
+      "page": 29,
+      "width": 1042,
+      "height": 603,
+      "nearby_heading": "JOBFIT .i"
+    },
+    {
+      "file": "img_p30_610.jpg",
+      "page": 30,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_611.jpg",
+      "page": 30,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_613.jpg",
+      "page": 30,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_615.jpg",
+      "page": 30,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_616.jpg",
+      "page": 30,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_617.jpg",
+      "page": 30,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_618.jpg",
+      "page": 30,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p30_619.jpg",
+      "page": 30,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - EMPLOYEE SATISFACTION SURVEY"
+    },
+    {
+      "file": "img_p31_610.jpg",
+      "page": 31,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "SUBSCRIPTION PRICE - COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p31_611.jpg",
+      "page": 31,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "SUBSCRIPTION PRICE - COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p31_645.jpg",
+      "page": 31,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p31_646.jpg",
+      "page": 31,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p31_647.jpg",
+      "page": 31,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p31_648.jpg",
+      "page": 31,
+      "width": 636,
+      "height": 213,
+      "nearby_heading": "SUBSCRIPTION PRICE - COMPETENCY ASSESSMENT SURVEY"
+    },
+    {
+      "file": "img_p32_666.jpg",
+      "page": 32,
+      "width": 2048,
+      "height": 1413,
+      "nearby_heading": "Venturo Pro"
+    },
+    {
+      "file": "img_p32_667.jpg",
+      "page": 32,
+      "width": 1812,
+      "height": 706,
+      "nearby_heading": "Companies That Trust Our Work"
+    },
+    {
+      "file": "img_p32_668.jpg",
+      "page": 32,
+      "width": 1086,
+      "height": 724,
+      "nearby_heading": "Companies That Trust Our Work"
+    },
+    {
+      "file": "img_p33_610.jpg",
+      "page": 33,
+      "width": 1920,
+      "height": 1080,
+      "nearby_heading": "JOBFIT.id"
+    },
+    {
+      "file": "img_p33_611.jpg",
+      "page": 33,
+      "width": 900,
+      "height": 600,
+      "nearby_heading": "JOBFIT.id"
+    }
+  ],
+  "raw_text_per_page": [
+    {
+      "page": 0,
+      "text": "Teknologi Cerdas \nUntuk Rekrutmen yang eﬁsien\ndan objektif.\n👥Lebih dari 500++ Psikotes Online dilakukan \n📜90% Merasa puas dengan hasil Psikotes Online\n"
+    },
+    {
+      "page": 1,
+      "text": "MASALAH UMUM YANG TERJADI\nPADA PROSES REKRUTMEN \nSulit menemukan kandidat yang sesuai dengan harapan\nTidak menemukan cara yang cepat untuk rekrutmen \ndengan banyak pelamar\nPerilaku Kinerja karyawan sering tidak terlihat saat awal \npercobaan masa kerja\nMenjalankan tes psikologi seringkali melelahkan dan \nproses mendapatkan hasil membutuhkan waktu\n"
+    },
+    {
+      "page": 2,
+      "text": "✔\nProses rekrutmen sering memakan waktu \nAplikasi kami membantu perusahaan menilai kandidat secara cepat, objektif, \ndan berbasis data psikologis\n✔\nPerusahaan sering kesulitan membedakan kandidat dengan \nkemampuan serupa\nAplikasi kami membantu mengungkap perbedaan karakter, motivasi, dan \ngaya kerja dengan analisis psikometrik otomatis\n✔\nSulit mendapatkan laporan hasil tes yang mudah dibaca dan dapat \nlangsung ditindaklanjuti\nAplikasi kami menyajikan hasil analisis dalam format visual dan rekomendasi \nsiap pakai\n✔\nKebutuhan tes psikologi yang beragam membuat proses rekrutmen \nsemakin kompleks\nAplikasi kami menyederhanakannya dengan koleksi tes lengkap seperti DISC, \nPapikostik, dan alat ukur lain yang siap digunakan.\n✔\nHR butuh hasil tes yang terhubung ke sistem karyawan\nAplikasi kami menghubungkannya langsung dengan Humanis HRIS untuk \nanalisis yang lebih eﬁsien, cepat dan terintegrasi.\nSTRESS-FREE \nSOLUTIONS\nTransformasi proses \nrekrutmen melalui tes \npsikologi berbasis teknologi\n"
+    },
+    {
+      "page": 3,
+      "text": "KEY JOBFIT\nSOFTWARE\nFEATURE\nSolutions We Provide\nInput Bulk \nKoresponden\nSebarkan tes \nlewat Email & \nWhatsapp\nPsikotes \nOnline\nDashboard \nInformatif\nHasil Tes \nCepat dan \nLaporan jelas\n"
+    },
+    {
+      "page": 4,
+      "text": "Dashboard Informatif\nPantau seluruh proses rekrutmen dalam satu tampilan \nyang jelas dan real-time.\nDashboard kami membantu HR mengambil keputusan \nlebih cepat dengan data hasil tes yang langsung dapat \ndianalisis.\nTes Online Berbasis Kuota\nKelola peserta tes dengan mudah tanpa khawatir \nkelebihan kapasitas.\nSistem berbasis kuota memudahkan perusahaan \nmemonitor penggunaan tes secara eﬁsien dan terukur.\nInput Koresponden &\nBulk Input\nHemat waktu dengan ﬁtur input massal untuk banyak \nkandidat sekaligus.\nProses administrasi menjadi lebih ringkas tanpa perlu \nentri data satu per satu.\n"
+    },
+    {
+      "page": 5,
+      "text": "Share Tes via Email atau WhatsApp\nSebarkan undangan tes ke kandidat dengan cara \nyang paling praktis. Hanya dengan satu klik, tes \ndapat dikirim langsung melalui email atau \nWhatsApp tanpa perlu login manual.\nHasil Tes yang Menyeluruh\nDapatkan gambaran lengkap tentang kepribadian, \npotensi, dan gaya kerja kandidat. Hasil analisis \ndisajikan secara visual, mudah dibaca, dan siap \ndigunakan untuk pengambilan keputusan \nrekrutmen.\nHasil Test\n"
+    },
+    {
+      "page": 6,
+      "text": "1.\nTes Papikostik\nDigunakan untuk mengukur motivasi kerja, \ngaya kepemimpinan, serta kecenderungan \nperilaku seseorang di lingkungan kerja.\nHasil tes membantu perusahaan memahami \nkarakter dan potensi individu secara lebih \nmendalam, sehingga penempatan kerja \nmenjadi lebih tepat.\nTes yang Tersedia di Jobﬁt\nAplikasi kami menyediakan dua jenis tes kepribadian utama yang umum digunakan dalam proses rekrutmen \ndan pengembangan karyawan:\n2.\nTes DISC\nMenggambarkan gaya komunikasi dan \nperilaku seseorang berdasarkan empat \ndimensi utama: Dominance, Inﬂuence, \nSteadiness, dan Compliance.\nTes ini memudahkan perusahaan mengenali \ncara terbaik berinteraksi, memimpin, dan \nmembangun tim yang efektif. Kedua tes \ndilakukan secara online dengan laporan hasil \ninstan, sehingga proses asesmen menjadi lebih \ncepat, eﬁsien, dan akurat.\n"
+    },
+    {
+      "page": 7,
+      "text": ""
+    },
+    {
+      "page": 8,
+      "text": ""
+    },
+    {
+      "page": 9,
+      "text": "○Kick of Meeting & Project Organization\n○Business Review & Management Brieﬁng\n○Preparation Set Up Master File & Installation\n○Company Installation\n○Parameter Setup/System Parameters\n○User training & exercises\n○Free 200 Quota\nRp 2.000.000 / perusahaan\nINITIAL PROFESSIONAL SERVICES\n(One time only)\n"
+    },
+    {
+      "page": 10,
+      "text": "100 Quota\nRp 500.000\nSUBSCRIPTION PRICE - \nONLINE PSYCHOLOGY TEST\n500 Quota\nRp 2.000.000\n1.000 Quota\nRp 3.000.000\n"
+    },
+    {
+      "page": 11,
+      "text": "Quota\nTidak perlu instalasi, langsung pakai. Harga ﬂeksibel sesuai kebutuhan\nSUBSCRIPTION PRICE\nIQ\nRp 10.000\nPAPI KOSTICK\nRp 10.000\nIQ & PAPI KOSTICK\nIQ & PAPI KOSTICK\nRp 20.000\nRp 16.000\nRp 9.000\nRp 9.000\nRp 18.000\nRp 14.500\nRp 8.000\nRp 8.000\nRp 16.000\nRp 13.000 \n1 - 250\n251 - 500\n> 500\n"
+    },
+    {
+      "page": 12,
+      "text": "Dapatkan Free 100 Kuota Psikotest\nKhusus hingga 31 Oktober 2025!\nFree Unlimited Support – Selama berlangganan, tim kami \nsiap membantu dalam 1x24 jam\nFree Buku Panduan, langkah demi langkah penggunaan\nSiap Membantu Rekrutmen Anda lebih Efektif\n"
+    },
+    {
+      "page": 13,
+      "text": "c\n- Selama berlangganan Free pendampingan melalui \nWA Group\n- Google Meet Support sebanyak 2 kali\nFASILITAS  PREMIUM \nTERBATAS\nHanya untuk 20 Perusahaan di bulan ini\nFASILITAS  PREMIUM \nTERBATAS\nJika Anda serius! maka tim kami siap mendukung dari awal \nhingga selesai.\n"
+    },
+    {
+      "page": 14,
+      "text": "LET’S COLLABORATE\nResearch & Development Ofﬁce\nJl Rinjani No 26 Oro Oro Dowo\nKec. Klojen, Kota Malang, Jawa Timur\nDaftar Sekarang Juga\n0851-2804-3814 \n@rtonline_id\nrtonline.id\n@rtonline_id\n"
+    },
+    {
+      "page": 15,
+      "text": ""
+    },
+    {
+      "page": 16,
+      "text": " \nMASALAH UMUM YANG TERJADI\nPADA PROSES REKRUTMEN \nMenjalankan tes psikologi seringkali melelahkan dan \nproses mendapatkan hasil membutuhkan waktu\nSulit menemukan kandidat yang sesuai dengan \nharapan\nTidak menemukan cara yang cepat untuk rekrutmen \ndengan banyak pelamar\nPerilaku Kinerja karyawan sering tidak terlihat saat \nawal percobaan masa kerja\n"
+    },
+    {
+      "page": 17,
+      "text": " \n \nMANUAL TEST\nJOBFIT.id\nMembantu penilaian calon  karyawan\nSeringkali salah rekrut karena proses \nrekrutmen yang keliru\nMembantu menemukan kandidat yang tepat\nTidak ada sistem untuk mempercepat seleksi kandidat\nMenggunakan gadget untuk mempercepat penarikan \ndata\nMedia test menggunakan kertas\nMenunggu proses lama untuk mendapat hasil\nHasil test real time dan modern\n       Kegunaan\nEfektiﬁtas\n      Media\nLaporan           \nPerilaku kinerja yang bermasalah tidak terdeteksi saat \nmasa percobaan kerja\nMenjelaskan perilaku kerja karyawan sebagai data \nuntuk antisipasi di masa depan\n   Preventif           \n"
+    },
+    {
+      "page": 18,
+      "text": " \nDashboard yang lengkap dengan informasi \nuntuk setiap aspek memudahkan HR untuk \nmembaca laporan hasil tes\nDASHBOARD YANG \nINFORMATIF\nJOBFIT .i\nd\nONLINE PSYCHOLOGICAL TEST\n"
+    },
+    {
+      "page": 19,
+      "text": " \nJOBFIT .i\nd\nHasil Test Realtime mempercepat \nproses pengambilan keputusan untuk \nkaryawan\nHASIl TES ONLINE\nONLINE PSYCHOLOGICAL TEST\n"
+    },
+    {
+      "page": 20,
+      "text": " \nJOBFIT .i\nd\nHemat kertas dan proses \nanalisa menjadi lebih cepat \ndengan metode online\nPROSES TES ONLINE\nONLINE PSYCHOLOGICAL TEST\n"
+    },
+    {
+      "page": 21,
+      "text": " \nJOBFIT .i\nd\nHemat waktu anda tanpa perlu input \ndata koresponden satu per satu. \nDengan fitur import  excel anda dapat \nmemasukkan banyak koresponden \ndalam sekali waktu\nINPUT BULK KORESPONDEN\nONLINE PSYCHOLOGICAL TEST\n"
+    },
+    {
+      "page": 22,
+      "text": " \nEMPLOYEE SATISFACTION SURVEY\n"
+    },
+    {
+      "page": 23,
+      "text": " \nJOBFIT .i\nd\nManajemen survey anda dengan \ndashboard yang informatif. Fitur \nEmplyee Satisfaction Survey dilengkapi \ndengan laporan yang lengkap dan \nmudah dipahami.\nPOWERFUL DASHBOARD \nAND REPORT\nEMPLOYEE SATISFACTION SURVEY\n"
+    },
+    {
+      "page": 24,
+      "text": " \nJOBFIT .i\nd\nSetiap perusahaan memiliki \naspek-aspek yang berbeda untuk \nmengukur kepuasan karyawannya. \nFitur pembuat survey yang fleksibel \nbisa disesuaikan dengan aturan \nperusahaan anda\nATUR PERTANYAAN SESUAI \nKEBUTUHAN\nEMPLOYEE SATISFACTION SURVEY\n"
+    },
+    {
+      "page": 25,
+      "text": " \nJOBFIT .i\nd\nTidak perlu repot sebar survey ke \nkaryawan anda. Cukup undang melalui \nemail, karyawan anda dapat mengisi \nsurvey langsung dari smartphone \nmasing-masing\nPENGISIAN SURVEY MUDAH \nMELALUI SMARTPHONE\nEMPLOYEE SATISFACTION SURVEY\n"
+    },
+    {
+      "page": 26,
+      "text": " \nCOMPETENCY ASSESSMENT SURVEY\n"
+    },
+    {
+      "page": 27,
+      "text": " \nJOBFIT .i\nd\nTidak perlu repot sebar survey ke \nkaryawan anda. Cukup undang melalui \nemail, karyawan anda dapat mengisi \nsurvey langsung dari smartphone \nmasing-masing\nPENGISIAN SURVEY MUDAH \nMELALUI SMARTPHONE\nCOMPETENCY ASSESSMENT SURVEY\n"
+    },
+    {
+      "page": 28,
+      "text": " \nJOBFIT .i\nd\nTidak perlu repot sebar survey ke \nkaryawan anda. Cukup undang melalui \nemail, karyawan anda dapat mengisi \nsurvey langsung dari smartphone \nmasing-masing\nPENGISIAN SURVEY MUDAH \nMELALUI SMARTPHONE\nCOMPETENCY ASSESSMENT SURVEY\n"
+    },
+    {
+      "page": 29,
+      "text": " \nJOBFIT .i\nd\nTidak perlu repot sebar survey ke \nkaryawan anda. Cukup undang melalui \nemail, karyawan anda dapat mengisi \nsurvey langsung dari smartphone \nmasing-masing\nPENGISIAN SURVEY MUDAH \nMELALUI SMARTPHONE\nCOMPETENCY ASSESSMENT SURVEY\n"
+    },
+    {
+      "page": 30,
+      "text": "250\nRp 2.500.000\nSUBSCRIPTION PRICE - \nEMPLOYEE SATISFACTION SURVEY\n500\nRp 4.500.000\n1.000\nRp 8.000.000\n2.000\n3.000\nRp 18.000.000\nRp 14.000.000\n4.000\nRp 20.000.000\nJumlah Respon (Tahunan)\n"
+    },
+    {
+      "page": 31,
+      "text": "100\nRp 1.000.000\nSUBSCRIPTION PRICE - \nCOMPETENCY ASSESSMENT SURVEY\n200\nRp 1.800.000\n300\nRp 2.400.000\n400\nRp 2.800.000\nJumlah Respon (Tahunan)\n"
+    },
+    {
+      "page": 32,
+      "text": "Companies That Trust Our Work\nKami adalah perusahaan yang bergerak di \nbidang Software Developer \nBerpengalaman sejak tahun 2013 yang \ntelah mendevelop ratusan project custom \ndari berbagai perusahaan dan instansi di \nIndonesia\nSaat ini kami memiliki 105 IT Talent \nProfessional yang berpusat di Kota \nMalang, Jawa Timur.\nVenturo Pro\nHolding company\n"
+    },
+    {
+      "page": 33,
+      "text": "LET’S COLLABORATE\nHead Office:\nResearch & Development Office\nJl Rinjani No 26 Oro Oro Dowo\nKec. Klojen Kota Malang Jawa Timur Kode Pos 65119\nJOBFIT.id\nThe Right Talent for the Right Job\n"
+    }
+  ]
+}
