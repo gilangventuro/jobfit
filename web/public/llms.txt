@@ -1,0 +1,21 @@
+# JobFit
+
+> JobFit adalah platform psikotes online (asesmen psikometrik: DISC, Papikostik, IQ) yang membantu perusahaan menyaring dan menilai kandidat/karyawan secara cepat, objektif, dan berbasis data ilmiah. Dilengkapi modul Employee Satisfaction Survey dan Competency Assessment Survey, serta modul Recruitment lengkap (Job Posting → Chat Interview → Penilaian → Offer → Hired). Dikembangkan oleh Venturo Pro, software developer asal Malang sejak 2013 dengan 105 IT Talent Professional.
+
+Tagline: "Right Talent for Right Job"
+
+## Halaman Utama
+
+- [Beranda](https://jobfit.id/): Ringkasan solusi, statistik penggunaan, dan trust wall klien JobFit.
+- [Produk](https://jobfit.id/produk): Penjelasan tiga modul — Psikotes Online, Employee Satisfaction Survey, Competency Assessment Survey.
+- [Harga](https://jobfit.id/harga): Struktur harga transparan untuk seluruh modul.
+- [Tentang Kami](https://jobfit.id/tentang-kami): Profil JobFit dan Venturo Pro.
+- [FAQ](https://jobfit.id/faq): Jawaban seputar validitas tes online dan keamanan data.
+- [Panduan](https://jobfit.id/panduan): Dokumentasi penggunaan modul Recruitment.
+- [Kontak](https://jobfit.id/kontak): Kanal WhatsApp, email, dan form kontak tim JobFit.
+
+## Statistik Terverifikasi
+
+- Lebih dari 500++ psikotes online telah dilakukan.
+- 90% pengguna merasa puas dengan hasil psikotes online.
+- Dipercaya 40+ perusahaan lintas industri di Indonesia.

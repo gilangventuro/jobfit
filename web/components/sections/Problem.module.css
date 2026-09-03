@@ -1,0 +1,75 @@
+.section {
+  padding-block: var(--space-24);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+/* Without this, the SwipeableCards track's un-wrapped flex content (each
+   card is `flex: 0 0 85vw`) reports a huge intrinsic min-width. Grid items
+   default to `min-width: auto`, so that min-content size propagates up and
+   stretches the whole shared grid track (and therefore the image column
+   stacked in the same track on mobile) far past the viewport instead of
+   letting `overflow-x: auto` do its job within the available width. */
+.grid > * {
+  min-width: 0;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 0.85fr 1.15fr;
+  }
+}
+
+.imageFrame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.imageFrame img {
+  object-fit: cover;
+}
+
+.title {
+  font-size: var(--text-h2);
+  margin-bottom: var(--space-8);
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    text-align: left;
+  }
+}
+
+.card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6);
+  height: 100%;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.cardTitle {
+  font-size: var(--text-h4);
+  margin-bottom: var(--space-2);
+}
+
+.cardDesc {
+  font-size: var(--text-body-sm);
+  color: var(--color-gray-500);
+}

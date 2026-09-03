@@ -1,0 +1,179 @@
+.section {
+  padding-block: var(--space-24);
+}
+
+.sectionHeader {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto var(--space-16);
+}
+
+.sectionTitle {
+  font-size: var(--text-h2);
+}
+
+.subBlock {
+  margin-bottom: var(--space-24);
+}
+
+.subBlock:last-child {
+  margin-bottom: 0;
+}
+
+.subTitle {
+  font-size: var(--text-h3);
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto var(--space-8);
+}
+
+.singleCardWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.singleCardWrap .card {
+  max-width: 460px;
+  width: 100%;
+}
+
+/* ===== Pricing Card — PLAN-DESIGN-SYSTEM 6.2 ===== */
+.card {
+  position: relative;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6);
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardFeatured {
+  border-radius: var(--radius-2xl);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-warning);
+  color: var(--color-white);
+  font-size: var(--text-caption);
+  font-weight: 700;
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+.cardName {
+  font-size: var(--text-h4);
+  margin-bottom: var(--space-3);
+  text-align: center;
+}
+
+.cardPrice {
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.priceValue {
+  display: block;
+  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-size: var(--text-h3);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.priceUnit {
+  display: block;
+  font-size: var(--text-body-sm);
+  color: var(--color-gray-500);
+  margin-top: var(--space-1);
+}
+
+.featureList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+  flex-grow: 1;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: var(--text-body-sm);
+  color: var(--color-gray-800);
+  line-height: 1.5;
+}
+
+.checkIcon {
+  flex-shrink: 0;
+  color: var(--color-primary);
+  margin-top: 2px;
+}
+
+.cardCta {
+  width: 100%;
+}
+
+/* ===== Price Table (Sub-blok 2.3, 2.4, 2.5) ===== */
+.tableWrapper {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6);
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 420px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-gray-300);
+  font-size: var(--text-body-sm);
+}
+
+.table th {
+  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-weight: 600;
+  color: var(--color-dark);
+  background: var(--color-gray-100);
+}
+
+.table td:first-child,
+.table th:first-child {
+  font-weight: 600;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table td {
+  color: var(--color-gray-800);
+}
+
+.tableCaption {
+  margin-top: var(--space-4);
+  font-size: var(--text-body-sm);
+  color: var(--color-gray-500);
+  line-height: 1.5;
+}
