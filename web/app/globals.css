@@ -78,7 +78,7 @@ html {
 body {
   background: var(--color-bg);
   color: var(--color-gray-800);
-  font-family: var(--font-body), "Source Sans 3", Arial, sans-serif;
+  font-family: var(--font-body), "Poppins", Arial, sans-serif;
   font-size: var(--text-body);
   line-height: 1.6;
 }
@@ -89,7 +89,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   color: var(--color-dark);
   font-weight: 700;
   line-height: 1.2;

@@ -84,7 +84,7 @@
 
 .priceValue {
   display: block;
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-size: var(--text-h3);
   font-weight: 700;
   color: var(--color-primary);
@@ -152,7 +152,7 @@
 }
 
 .table th {
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-weight: 600;
   color: var(--color-dark);
   background: var(--color-gray-100);

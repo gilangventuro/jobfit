@@ -154,7 +154,7 @@
 
 .mobileNavLink {
   font-size: var(--text-h4);
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-weight: 600;
   color: var(--color-dark);
   padding: var(--space-3) 0;

@@ -29,7 +29,7 @@
 .statValue {
   display: block;
   text-align: center;
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-size: var(--text-h2);
   font-weight: 700;
   color: var(--color-primary);
@@ -81,7 +81,7 @@
 }
 
 .logoName {
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-weight: 600;
   color: var(--color-dark);
   font-size: var(--text-body);

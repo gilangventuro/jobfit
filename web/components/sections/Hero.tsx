@@ -43,22 +43,6 @@ export default function Hero() {
               />
             ))}
           </div>
-
-          <div className={`stagger-item ${styles.trustBar}`}>
-            <p className={styles.trustLabel}>
-              Dipercaya 40+ perusahaan lintas industri.
-            </p>
-            <div className={styles.trustLogoStrip}>
-              <Image
-                src="/assets/client-logos-trust-wall.jpg"
-                alt="Dinding logo perusahaan klien JobFit lintas industri yang menggunakan psikotes online untuk rekrutmen"
-                title="Klien korporat JobFit — psikotes online terpercaya"
-                width={340}
-                height={90}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-            </div>
-          </div>
         </div>
 
         <div className={`stagger-item ${styles.imageCol}`}>

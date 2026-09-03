@@ -68,7 +68,6 @@
   display: flex;
   justify-content: center;
   gap: var(--space-12);
-  margin-bottom: var(--space-8);
   flex-wrap: wrap;
 }
 
@@ -80,41 +79,25 @@
 
 .statValue {
   display: block;
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  text-align: center;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-size: var(--text-h2);
   font-weight: 700;
   color: var(--color-primary);
 }
 
 .statLabel {
+  text-align: center;
   font-size: var(--text-body-sm);
   color: var(--color-gray-500);
   max-width: 160px;
 }
 
-.trustBar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-3);
-}
-
 @media (min-width: 1024px) {
-  .trustBar {
-    align-items: flex-start;
+  .statValue,
+  .statLabel {
+    text-align: left;
   }
-}
-
-.trustLabel {
-  font-size: var(--text-body-sm);
-  color: var(--color-gray-500);
-}
-
-.trustLogoStrip {
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  max-width: 340px;
-  opacity: 0.9;
 }
 
 .imageCol {

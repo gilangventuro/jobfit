@@ -56,7 +56,7 @@
 .statValue {
   display: block;
   text-align: center;
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-size: var(--text-h2);
   font-weight: 700;
   color: var(--color-white);

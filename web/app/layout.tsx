@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Lexend, Source_Sans_3 } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import LenisProvider from "@/components/LenisProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const lexend = Lexend({
+const poppinsHeading = Poppins({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
-const sourceSans = Source_Sans_3({
+const poppinsBody = Poppins({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className={`${lexend.variable} ${sourceSans.variable}`}>
+    <html lang="id" className={`${poppinsHeading.variable} ${poppinsBody.variable}`}>
       <body>
         <LenisProvider>
           <Header />

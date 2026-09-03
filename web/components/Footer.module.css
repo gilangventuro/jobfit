@@ -47,7 +47,7 @@
 }
 
 .heading {
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-size: var(--text-h4);
   color: var(--color-white);
   margin-bottom: var(--space-4);

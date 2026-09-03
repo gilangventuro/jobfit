@@ -71,7 +71,7 @@
 }
 
 .highlightName {
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-weight: 600;
   color: var(--color-dark);
   font-size: var(--text-body);
@@ -108,7 +108,7 @@
 }
 
 .logoChipName {
-  font-family: var(--font-heading), "Lexend", sans-serif;
+  font-family: var(--font-heading), "Poppins", sans-serif;
   font-weight: 600;
   color: var(--color-primary-dark);
   font-size: var(--text-body-sm);
