@@ -6,7 +6,7 @@ Tagline: "Right Talent for Right Job"
 
 ## Halaman Utama
 
-- [Beranda](https://jobfit.id/): Ringkasan solusi, statistik penggunaan, dan trust wall klien JobFit.
+- [Home](https://jobfit.id/): Ringkasan solusi, statistik penggunaan, dan trust wall klien JobFit.
 - [Produk](https://jobfit.id/produk): Penjelasan tiga modul — Psikotes Online, Employee Satisfaction Survey, Competency Assessment Survey.
 - [Harga](https://jobfit.id/harga): Struktur harga transparan untuk seluruh modul.
 - [Tentang Kami](https://jobfit.id/tentang-kami): Profil JobFit dan Venturo Pro.

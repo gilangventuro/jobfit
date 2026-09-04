@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
-import PanduanHeader from "@/components/sections/PanduanHeader";
-import PanduanSteps from "@/components/sections/PanduanSteps";
-import PanduanCatatan from "@/components/sections/PanduanCatatan";
-import PanduanCta from "@/components/sections/PanduanCta";
+import PanduanPipeline from "@/components/sections/PanduanPipeline";
 
-const TITLE = "Panduan Penggunaan JobFit | Dokumentasi Jobfit";
+const TITLE = "Memahami Pipeline Kandidat | Panduan JobFit";
 const DESCRIPTION =
-  "Panduan penggunaan JobFit: cara pakai psikotes online, wawancara & penilaian kandidat di modul Recruitment — langkah demi langkah.";
+  "Panduan JobFit untuk memahami pipeline kandidat pada halaman Recruitment.";
 
 export const metadata: Metadata = {
   title: {
@@ -30,86 +27,85 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Wawancara & Penilaian",
+    name: "Memahami Pipeline Kandidat",
     url: "https://jobfit.id/panduan",
     description: DESCRIPTION,
   },
   {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "Wawancara & Penilaian",
-    description:
-      "Langkah-langkah untuk melakukan wawancara dan penilaian kandidat di Recruitment, mulai dari membuka chat wawancara hingga membuat penawaran (offer).",
+    name: "Memahami Pipeline Kandidat",
+    description: DESCRIPTION,
     step: [
       {
         "@type": "HowToStep",
-        name: "Step 1: Membuka Chat Wawancara",
+        name: "Step 1: Membuka Menu Recruitment",
         itemListElement: [
           {
             "@type": "HowToDirection",
-            text: "Buka menu Recruitment dan pilih lowongan yang diinginkan.",
+            text: "Buka menu Recruitment di navigasi kiri aplikasi.",
           },
           {
             "@type": "HowToDirection",
-            text: "Klik kandidat yang akan diwawancarai untuk membuka panel detail.",
+            text: "Halaman Recruitment menampilkan lowongan beserta kandidat yang melamarnya.",
           },
           {
             "@type": "HowToDirection",
-            text: "Buka fitur chat interview pada kandidat untuk memulai sesi wawancara.",
+            text: "Pantau kandidat dari awal lamaran sampai diterima atau ditolak.",
           },
         ],
       },
       {
         "@type": "HowToStep",
-        name: "Step 2: Melakukan Wawancara",
+        name: "Step 2: Memilih Lowongan",
         itemListElement: [
           {
             "@type": "HowToDirection",
-            text: "Gunakan pertanyaan yang tersedia di chat untuk memandu sesi wawancara.",
+            text: "Lihat daftar lowongan yang tersedia di panel kiri halaman Recruitment.",
           },
           {
             "@type": "HowToDirection",
-            text: "Arahkan percakapan untuk menggali kompetensi kandidat sesuai kebutuhan posisi.",
+            text: "Pilih salah satu lowongan untuk melihat kandidat yang melamarnya.",
           },
           {
             "@type": "HowToDirection",
-            text: "Catat informasi penting selama sesi berlangsung.",
+            text: "Gunakan pencarian pada panel kiri untuk mempersempit daftar lowongan.",
           },
         ],
       },
       {
         "@type": "HowToStep",
-        name: "Step 3: Mengisi Penilaian Wawancara",
+        name: "Step 3: Membaca Tab Status Pipeline",
         itemListElement: [
           {
             "@type": "HowToDirection",
-            text: "Setelah sesi wawancara selesai, buka form penilaian Interview Penilaian.",
+            text: "Setelah memilih lowongan, pipeline kandidat tampil sebagai deretan tab status.",
           },
           {
             "@type": "HowToDirection",
-            text: "Isi penilaian berdasarkan hasil wawancara kandidat.",
+            text: "Terdapat 8 tab status: Waiting, Shortlisted, Pre-interviewed, Interkeyed, Offered, Hired, Rejected, dan Bookmark.",
           },
           {
             "@type": "HowToDirection",
-            text: "Simpan penilaian; hasilnya tercatat di detail kandidat dan dipakai untuk pengambilan keputusan.",
+            text: "Setiap tab menampilkan jumlah kandidat dan dapat diklik untuk menampilkan daftarnya.",
           },
         ],
       },
       {
         "@type": "HowToStep",
-        name: "Step 4: Membuat Penawaran (Offer)",
+        name: "Step 4: Memahami Arti Setiap Status",
         itemListElement: [
           {
             "@type": "HowToDirection",
-            text: "Untuk kandidat yang cocok, gunakan template offer letter.",
+            text: "Waiting berarti kandidat menunggu review; Shortlisted berarti kandidat terpilih untuk lanjut.",
           },
           {
             "@type": "HowToDirection",
-            text: "Isi penawaran sesuai ketentuan perusahaan, lalu kirim ke kandidat.",
+            text: "Pre-interviewed adalah tahap sebelum wawancara; Interkeyed adalah kandidat yang sudah diwawancarai.",
           },
           {
             "@type": "HowToDirection",
-            text: "Status kandidat berubah menjadi Offered.",
+            text: "Offered berarti sudah ditawari, Hired berarti diterima, Rejected berarti ditolak, dan Bookmark berarti disimpan untuk ditinjau nanti.",
           },
         ],
       },
@@ -122,7 +118,7 @@ const jsonLd = [
       {
         "@type": "ListItem",
         position: 1,
-        name: "Beranda",
+        name: "Home",
         item: "https://jobfit.id/",
       },
       {
@@ -143,10 +139,7 @@ export default function PanduanPage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <PanduanHeader />
-      <PanduanSteps />
-      <PanduanCatatan />
-      <PanduanCta />
+      <PanduanPipeline />
     </>
   );
 }

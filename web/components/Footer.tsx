@@ -4,7 +4,7 @@ import { Mail, MapPin, MessageCircle } from "lucide-react";
 import styles from "./Footer.module.css";
 
 const NAV_LINKS = [
-  { href: "/", label: "Beranda" },
+  { href: "/", label: "Home" },
   { href: "/produk", label: "Produk" },
   { href: "/harga", label: "Harga" },
   { href: "/tentang-kami", label: "Tentang Kami" },

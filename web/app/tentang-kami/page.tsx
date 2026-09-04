@@ -81,7 +81,7 @@ const jsonLd = [
       {
         "@type": "ListItem",
         position: 1,
-        name: "Beranda",
+        name: "Home",
         item: "https://jobfit.id",
       },
       {

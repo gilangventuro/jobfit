@@ -48,7 +48,7 @@ export default function Hero() {
         <div className={`stagger-item ${styles.imageCol}`}>
           <div className={styles.imageFrame}>
             <Image
-              src="/assets/hero-hrd-professional-woman-suit.jpg"
+              src="/assets/hero.png"
               alt="Tim HRD profesional menggunakan platform psikotes online JobFit untuk menyaring kandidat rekrutmen"
               title="Rekrutmen kandidat terbaik dengan psikotes online JobFit"
               fill

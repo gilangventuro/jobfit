@@ -75,6 +75,25 @@ html {
   scroll-behavior: auto;
 }
 
+@keyframes auroraDrift {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(-4%, 3%) rotate(6deg) scale(1.08);
+  }
+  100% {
+    transform: translate(3%, -3%) rotate(-4deg) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
 body {
   background: var(--color-bg);
   color: var(--color-gray-800);

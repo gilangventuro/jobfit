@@ -6,6 +6,7 @@ import TrustWall from "@/components/sections/TrustWall";
 import Faq from "@/components/sections/Faq";
 import { FAQS } from "@/components/sections/faq-data";
 import Cta from "@/components/sections/Cta";
+import KontakForm from "@/components/sections/KontakForm";
 
 export const metadata: Metadata = {
   title: "Psikotes Online untuk Rekrutmen | JobFit",
@@ -79,6 +80,7 @@ export default function Home() {
       <TrustWall />
       <Faq />
       <Cta />
+      <KontakForm />
     </>
   );
 }

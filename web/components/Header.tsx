@@ -8,11 +8,10 @@ import { X } from "lucide-react";
 import styles from "./Header.module.css";
 
 const NAV_LINKS = [
-  { href: "/", label: "Beranda" },
+  { href: "/", label: "Home" },
   { href: "/produk", label: "Produk" },
   { href: "/harga", label: "Harga" },
   { href: "/panduan", label: "Panduan" },
-  { href: "/kontak", label: "Kontak" },
 ] as const;
 
 /**
@@ -48,7 +47,7 @@ export default function Header() {
         <Link
           href="/"
           className={styles.logoLink}
-          aria-label="Kembali ke Beranda JobFit"
+          aria-label="Kembali ke Home JobFit"
           title="JobFit — Right Talent for Right Job"
         >
           <Image

@@ -1,10 +1,26 @@
 .hero {
+  position: relative;
   padding-block: var(--space-16) var(--space-24);
   background: linear-gradient(180deg, #f2fafd 0%, var(--color-bg) 100%);
   overflow: hidden;
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -20% -10%;
+  background:
+    radial-gradient(45% 55% at 78% 15%, rgba(20, 181, 206, 0.28), transparent 70%),
+    radial-gradient(35% 45% at 15% 75%, rgba(20, 181, 206, 0.16), transparent 70%);
+  filter: blur(60px);
+  pointer-events: none;
+  z-index: 0;
+  animation: auroraDrift 24s ease-in-out infinite alternate;
+}
+
 .inner {
+  position: relative;
+  z-index: 1;
   max-width: 720px;
   margin: 0 auto;
   display: flex;

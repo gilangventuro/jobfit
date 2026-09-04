@@ -41,7 +41,7 @@ const ALL_CLIENTS = [
 /**
  * TentangKamiTrustWall — dipivot dari `testimonial` menjadi social proof
  * murni (PLAN-tentang-kami.md Section 3). Bukan reuse dari
- * `components/sections/TrustWall.tsx` milik Beranda — implementasi baru
+ * `components/sections/TrustWall.tsx` milik Home — implementasi baru
  * dengan data & markup independen.
  */
 export default function TentangKamiTrustWall() {
