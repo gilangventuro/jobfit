@@ -1,39 +1,13 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { Mail, MapPin, MessageCircle } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import StatCounter from "@/components/StatCounter";
 import styles from "./KontakForm.module.css";
 
 const CONTACT = {
   waNumber: "6285128043814",
-  waDisplay: "0851-2804-3814",
   email: "Jobfit@venturo.pro",
-  address:
-    "Jl. Rinjani No 26, Oro-Oro Dowo, Kec. Klojen, Kota Malang, Jawa Timur 65119",
 };
-
-const CHANNELS = [
-  {
-    icon: MessageCircle,
-    title: "WhatsApp",
-    desc: `${CONTACT.waDisplay} — kanal respon tercepat, klik untuk chat langsung`,
-    href: `https://wa.me/${CONTACT.waNumber}`,
-  },
-  {
-    icon: Mail,
-    title: "Email",
-    desc: `${CONTACT.email} — untuk pertanyaan detail atau lampiran dokumen`,
-    href: `mailto:${CONTACT.email}`,
-  },
-  {
-    icon: MapPin,
-    title: "Alamat Kantor",
-    desc: CONTACT.address,
-    href: undefined,
-  },
-];
 
 /**
  * KontakForm — section `solution` (PLAN-kontak.md Section 4 Section 2).
@@ -71,7 +45,7 @@ export default function KontakForm() {
 
   return (
     <AnimatedSection as="section" className={styles.section}>
-      <div className={`container ${styles.grid}`}>
+      <div className="container">
         <div className={`stagger-item ${styles.formCol}`}>
           <h2 className={styles.title}>Hubungi Kami Langsung</h2>
           <p className={styles.valueProp}>
@@ -148,54 +122,6 @@ export default function KontakForm() {
               </button>
             </div>
           </form>
-        </div>
-
-        <div className={`stagger-item ${styles.channelCol}`}>
-          {CHANNELS.map((channel) => {
-            const Icon = channel.icon;
-            const content = (
-              <>
-                <div className={styles.channelIcon}>
-                  <Icon size={22} aria-hidden="true" />
-                </div>
-                <div>
-                  <h3 className={styles.channelTitle}>{channel.title}</h3>
-                  <p className={styles.channelDesc}>{channel.desc}</p>
-                </div>
-              </>
-            );
-            return channel.href ? (
-              <a
-                key={channel.title}
-                href={channel.href}
-                title={channel.title}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.channelCard}
-              >
-                {content}
-              </a>
-            ) : (
-              <div key={channel.title} className={styles.channelCard}>
-                {content}
-              </div>
-            );
-          })}
-
-          <div className={styles.statsRow}>
-            <StatCounter
-              value="500++"
-              label="Psikotes Online Dilakukan"
-              valueClassName={styles.statValue}
-              labelClassName={styles.statLabel}
-            />
-            <StatCounter
-              value="90%"
-              label="Pengguna Puas dengan Hasil Psikotes"
-              valueClassName={styles.statValue}
-              labelClassName={styles.statLabel}
-            />
-          </div>
         </div>
       </div>
     </AnimatedSection>

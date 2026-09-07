@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import PanduanPipeline from "@/components/sections/PanduanPipeline";
+import PanduanDocs from "@/components/sections/PanduanDocs";
 
-const TITLE = "Memahami Pipeline Kandidat | Panduan JobFit";
+const TITLE = "Panduan JobFit — Dokumentasi Lengkap";
 const DESCRIPTION =
-  "Panduan JobFit untuk memahami pipeline kandidat pada halaman Recruitment.";
+  "Dokumentasi lengkap JobFit: panduan login, recruitment, membuat lowongan, WhatsApp Service, pengaturan, dan talent management.";
 
 export const metadata: Metadata = {
   title: {
@@ -139,7 +139,7 @@ export default function PanduanPage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <PanduanPipeline />
+      <PanduanDocs />
     </>
   );
 }

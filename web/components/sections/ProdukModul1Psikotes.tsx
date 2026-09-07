@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BarChart3, BrainCircuit, ClipboardCheck } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import SwipeableCards from "@/components/SwipeableCards";
@@ -42,23 +41,12 @@ export default function ProdukModul1Psikotes() {
   return (
     <AnimatedSection as="section" className={styles.section}>
       <div className="container">
-        <div className={styles.intro}>
-          <div className={`stagger-item ${styles.introImage}`}>
-            <Image
-              src="/assets/screenshot-jobfit-disc-personality-test-mobile.jpg"
-              alt="Screenshot asli mobile app JobFit menampilkan tes psikotes DISC online untuk asesmen kepribadian kandidat"
-              title="Tes Psikotes DISC Online JobFit di Aplikasi Mobile"
-              fill
-              sizes="(max-width: 1024px) 90vw, 40vw"
-            />
-          </div>
-          <div className={`stagger-item ${styles.introText}`}>
-            <h2 className={styles.title}>Psikotes Online Lengkap</h2>
-            <p className={styles.valueProp}>
-              Aplikasi kami membantu perusahaan menilai kandidat secara
-              cepat, objektif, dan berbasis data psikologis.
-            </p>
-          </div>
+        <div className={`stagger-item ${styles.intro}`}>
+          <h2 className={styles.title}>Psikotes Online Lengkap</h2>
+          <p className={styles.valueProp}>
+            Aplikasi kami membantu perusahaan menilai kandidat secara
+            cepat, objektif, dan berbasis data psikologis.
+          </p>
         </div>
 
         <SwipeableCards
