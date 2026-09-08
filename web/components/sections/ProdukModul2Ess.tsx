@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ListChecks, Smartphone, ShieldCheck } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 import SwipeableCards from "@/components/SwipeableCards";
@@ -23,15 +22,6 @@ export default function ProdukModul2Ess() {
       </p>
     </div>,
     <div className={`${styles.card} stagger-item`} tabIndex={0} key="smartphone">
-      <div className={styles.cardImage}>
-        <Image
-          src="/assets/mockup-survey-mobile-pertanyaan.jpg"
-          alt="Mockup mobile UI pengisian pertanyaan employee satisfaction survey JobFit dari smartphone"
-          title="Pengisian Survey Kepuasan Karyawan via Smartphone JobFit"
-          fill
-          sizes="(max-width: 1024px) 90vw, 30vw"
-        />
-      </div>
       <div className={styles.iconBadge}>
         <Smartphone size={22} aria-hidden="true" />
       </div>
@@ -43,15 +33,6 @@ export default function ProdukModul2Ess() {
       </p>
     </div>,
     <div className={`${styles.card} stagger-item`} tabIndex={0} key="anonim">
-      <div className={styles.cardImage}>
-        <Image
-          src="/assets/mockup-survey-mobile-transparansi-data.jpg"
-          alt="Mockup mobile UI transparansi dan kerahasiaan data employee satisfaction survey JobFit"
-          title="Data Anonim dan Rahasia Survey Kepuasan Karyawan JobFit"
-          fill
-          sizes="(max-width: 1024px) 90vw, 30vw"
-        />
-      </div>
       <div className={styles.iconBadge}>
         <ShieldCheck size={22} aria-hidden="true" />
       </div>
