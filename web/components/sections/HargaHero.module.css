@@ -1,21 +1,48 @@
 .hero {
   position: relative;
   padding-block: var(--space-16) var(--space-24);
-  background: linear-gradient(180deg, #f2fafd 0%, var(--color-bg) 100%);
+  background: linear-gradient(
+    180deg,
+    #b8eef5 0%,
+    #d4f5fa 18%,
+    #edfcfe 38%,
+    #f8feff 52%,
+    #ffffff 68%,
+    #ffffff 100%
+  );
   overflow: hidden;
 }
 
 .hero::before {
   content: "";
   position: absolute;
-  inset: -20% -10%;
+  top: -40%;
+  left: -10%;
+  right: -10%;
+  height: 75%;
   background:
-    radial-gradient(45% 55% at 78% 15%, rgba(20, 181, 206, 0.28), transparent 70%),
-    radial-gradient(35% 45% at 15% 75%, rgba(20, 181, 206, 0.16), transparent 70%);
-  filter: blur(60px);
+    radial-gradient(55% 65% at 70% 25%, rgba(16, 176, 200, 0.40), transparent 70%),
+    radial-gradient(40% 50% at 15% 20%, rgba(111, 211, 227, 0.32), transparent 70%),
+    radial-gradient(30% 40% at 50% 5%,  rgba(16, 112, 152, 0.18), transparent 70%);
+  filter: blur(56px);
   pointer-events: none;
   z-index: 0;
   animation: auroraDrift 24s ease-in-out infinite alternate;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55%;
+  background-image: radial-gradient(circle, rgba(16, 112, 152, 0.09) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.8) 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.8) 100%);
 }
 
 .inner {

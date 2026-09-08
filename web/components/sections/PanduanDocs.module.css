@@ -1,16 +1,26 @@
 /* ─── ROOT LAYOUT ─── */
 .docsRoot {
-  display: flex;
-  min-height: calc(100vh - 64px);
-  background: #f5f7fa;
+  background: #ffffff;
   position: relative;
   margin-top: 64px;
 }
 
 @media (min-width: 769px) {
   .docsRoot {
-    min-height: calc(100vh - 72px);
     margin-top: 72px;
+  }
+}
+
+.docsInner {
+  display: flex;
+  max-width: var(--container-wide);
+  margin: 0 auto;
+  min-height: calc(100vh - 64px);
+}
+
+@media (min-width: 769px) {
+  .docsInner {
+    min-height: calc(100vh - 72px);
   }
 }
 
@@ -61,31 +71,36 @@
   background: #fff;
   border-right: 1px solid #e2e8f0;
   position: sticky;
-  top: 0;
-  height: 100vh;
+  top: 64px;
+  height: calc(100vh - 64px);
   overflow-y: auto;
   z-index: 20;
 }
 
-.sidebarInner {
-  padding: 0 0 32px;
+@media (min-width: 769px) {
+  .sidebar {
+    top: 72px;
+    height: calc(100vh - 72px);
+  }
 }
 
-.sidebarHeader {
-  padding: 20px 20px 16px;
-  font-size: 13px;
-  font-weight: 700;
-  color: #107098;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-bottom: 1px solid #e2e8f0;
-  margin-bottom: 8px;
+.sidebarInner {
+  padding: 16px 12px 32px;
 }
 
 /* ─── NAV ─── */
 .nav {
   display: flex;
   flex-direction: column;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 6px;
 }
 
 .navGroup {
@@ -97,21 +112,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 9px 20px;
-  font-size: 13px;
-  font-weight: 600;
+  padding: 10px 14px;
+  font-size: 12.5px;
+  font-weight: 700;
   color: #475569;
   text-align: left;
   background: none;
   border: none;
   cursor: pointer;
-  transition: color 0.15s;
+  transition: color 0.15s, background 0.15s;
   gap: 8px;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
+  border-radius: 8px;
 }
 .navGroupTitle:hover {
   color: #107098;
+  background: #e2eaf3;
 }
 .navGroupTitle.navGroupOpen {
   color: #107098;
@@ -120,36 +137,56 @@
 .navChildren {
   display: flex;
   flex-direction: column;
-  margin-bottom: 4px;
+  padding: 4px 6px 6px;
+  gap: 2px;
 }
 
 .navItem {
   display: block;
   width: 100%;
-  padding: 8px 20px;
-  font-size: 14px;
+  padding: 8px 12px;
+  font-size: 13.5px;
   color: #475569;
   text-align: left;
   background: none;
   border: none;
   cursor: pointer;
   transition: background 0.12s, color 0.12s;
-  border-left: 3px solid transparent;
+  border-radius: 7px;
   line-height: 1.4;
 }
 .navItem:hover {
-  background: #f1f5f9;
+  background: #e2eaf3;
   color: #107098;
 }
 .navItem.navActive {
-  background: #f0f9ff;
+  background: #dbeafe;
   color: #107098;
-  border-left-color: #107098;
   font-weight: 600;
 }
 .navChild {
-  padding-left: 32px;
-  font-size: 13.5px;
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+/* Single-page nav item (no group) */
+.navContainer > button.navItem {
+  background: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #475569;
+}
+.navContainer > button.navItem:hover {
+  background: #e2eaf3;
+  color: #107098;
+}
+.navContainer > button.navItem.navActive {
+  background: #dbeafe;
+  color: #107098;
 }
 
 /* ─── MAIN ─── */

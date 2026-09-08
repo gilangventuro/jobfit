@@ -1,5 +1,5 @@
+import Image from "next/image";
 import AnimatedSection from "@/components/AnimatedSection";
-import StatCounter from "@/components/StatCounter";
 import styles from "./TrustWall.module.css";
 
 const STATS = [
@@ -20,17 +20,18 @@ export default function TrustWall() {
           </p>
         </div>
 
-        <div className={`stagger-item ${styles.statsRow}`}>
-          {STATS.map((stat) => (
-            <StatCounter
-              key={stat.label}
-              value={stat.value}
-              label={stat.label}
-              valueClassName={styles.statValue}
-              labelClassName={styles.statLabel}
-            />
-          ))}
+        <div className={`stagger-item ${styles.clientImgWrap}`}>
+          <Image
+            src="/assets/clien.png"
+            alt="Klien perusahaan yang mempercayai JobFit"
+            title="Klien JobFit lintas industri"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className={styles.clientImg}
+          />
         </div>
+
 
       </div>
     </AnimatedSection>

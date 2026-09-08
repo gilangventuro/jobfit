@@ -4,6 +4,7 @@ import "./globals.css";
 import LenisProvider from "@/components/LenisProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingCta from "@/components/FloatingCta";
 
 const poppinsHeading = Poppins({
   variable: "--font-heading",
@@ -61,6 +62,7 @@ export default function RootLayout({
           <Header />
           <main>{children}</main>
           <Footer />
+          <FloatingCta />
         </LenisProvider>
       </body>
     </html>

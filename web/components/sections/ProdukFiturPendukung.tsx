@@ -53,7 +53,7 @@ export default function ProdukFiturPendukung() {
         <SwipeableCards
           items={cards}
           ariaLabel="Fitur pendukung modul Psikotes Online JobFit"
-          desktopColumns={4}
+          desktopColumns={3}
         />
       </div>
     </AnimatedSection>

@@ -16,9 +16,7 @@ export default function ProdukModul2Ess() {
       </div>
       <h3 className={styles.cardTitle}>Kuisioner Fleksibel</h3>
       <p className={styles.cardDesc}>
-        Setiap perusahaan memiliki aspek-aspek yang berbeda untuk mengukur
-        kepuasan karyawannya. Fitur pembuat survey yang fleksibel bisa
-        disesuaikan dengan aturan perusahaan anda.
+        Buat survey sesuai kebutuhan perusahaan Anda.
       </p>
     </div>,
     <div className={`${styles.card} stagger-item`} tabIndex={0} key="smartphone">
@@ -27,9 +25,7 @@ export default function ProdukModul2Ess() {
       </div>
       <h3 className={styles.cardTitle}>Pengisian via Smartphone</h3>
       <p className={styles.cardDesc}>
-        Tidak perlu repot sebar survey ke karyawan anda. Cukup undang melalui
-        email, karyawan anda dapat mengisi survey langsung dari smartphone
-        masing-masing.
+        Undang via email, karyawan isi langsung dari smartphone.
       </p>
     </div>,
     <div className={`${styles.card} stagger-item`} tabIndex={0} key="anonim">
@@ -38,8 +34,7 @@ export default function ProdukModul2Ess() {
       </div>
       <h3 className={styles.cardTitle}>Data Anonim & Rahasia</h3>
       <p className={styles.cardDesc}>
-        Semua data koresponden kami jamin kerahasiaannya, aplikasi ini tidak
-        mencatat log identitas Anda.
+        Identitas responden terjaga — tidak ada log yang dicatat.
       </p>
     </div>,
   ];

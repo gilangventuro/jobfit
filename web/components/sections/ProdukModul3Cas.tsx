@@ -27,9 +27,7 @@ export default function ProdukModul3Cas() {
             </div>
             <h3 className={styles.cardTitle}>Asesmen Kompetensi Karyawan</h3>
             <p className={styles.cardDesc}>
-              Penilaian kompetensi karyawan dengan pengalaman pengisian yang
-              sama praktisnya dengan survei kepuasan — undangan via email,
-              diisi langsung dari smartphone.
+              Penilaian kompetensi via email, diisi langsung dari smartphone.
             </p>
           </div>
           <div className={`${styles.card} stagger-item`} tabIndex={0}>
@@ -38,9 +36,7 @@ export default function ProdukModul3Cas() {
             </div>
             <h3 className={styles.cardTitle}>Rekap Kehadiran & Kinerja</h3>
             <p className={styles.cardDesc}>
-              Rekap kehadiran (masuk, sakit, izin, alpha, keterlambatan)
-              terintegrasi dalam satu laporan kompetensi, dilengkapi kolom
-              komentar/komitmen karyawan.
+              Rekap masuk, sakit, izin, dan alpha dalam satu laporan terintegrasi.
             </p>
           </div>
         </div>

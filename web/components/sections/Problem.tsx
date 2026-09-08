@@ -49,11 +49,13 @@ export default function Problem() {
       <div className={`container ${styles.grid}`}>
         <div className={`stagger-item ${styles.imageFrame}`}>
           <Image
-            src="/assets/stock-man-frustrated-recruitment-problem.jpg"
-            alt="Pria HRD frustrasi menghadapi proses rekrutmen manual yang lambat dan melelahkan"
+            src="/assets/jf.png"
+            alt="Masalah umum proses rekrutmen"
             title="Masalah umum proses rekrutmen manual"
-            fill
+            width={0}
+            height={0}
             sizes="(max-width: 1024px) 90vw, 40vw"
+            className={styles.problemImg}
           />
         </div>
 

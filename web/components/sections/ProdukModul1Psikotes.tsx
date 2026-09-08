@@ -7,17 +7,17 @@ const BENEFITS = [
   {
     icon: ClipboardCheck,
     title: "Koleksi Tes Lengkap",
-    desc: "Aplikasi kami menyederhanakannya dengan koleksi tes lengkap seperti DISC, Papikostik, dan alat ukur lain yang siap digunakan — mencakup tes DISC (gaya komunikasi & perilaku kerja), Papikostik (motivasi & gaya kepemimpinan), dan IQ.",
+    desc: "DISC, Papikostik, IQ, dan lainnya — siap digunakan tanpa konfigurasi.",
   },
   {
     icon: BrainCircuit,
     title: "Analisis Psikometrik Otomatis",
-    desc: "Aplikasi kami membantu mengungkap perbedaan karakter, motivasi, dan gaya kerja dengan analisis psikometrik otomatis.",
+    desc: "Ungkap karakter, motivasi, dan gaya kerja kandidat secara otomatis.",
   },
   {
     icon: BarChart3,
     title: "Hasil Visual & Siap Pakai",
-    desc: "Aplikasi kami menyajikan hasil analisis dalam format visual dan rekomendasi siap pakai.",
+    desc: "Laporan visual langsung siap untuk pengambilan keputusan rekrutmen.",
   },
 ];
 

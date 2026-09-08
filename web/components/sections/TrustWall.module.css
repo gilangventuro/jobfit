@@ -1,5 +1,6 @@
 .section {
   padding-block: var(--space-24);
+  background: #ffffff;
 }
 
 .header {
@@ -80,4 +81,15 @@
   font-weight: 600;
   color: var(--color-dark);
   font-size: var(--text-body);
+}
+
+.clientImgWrap {
+  width: 100%;
+  text-align: center;
+}
+
+.clientImg {
+  width: 100%;
+  height: auto;
+  display: block;
 }

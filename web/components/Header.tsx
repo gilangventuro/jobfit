@@ -9,7 +9,7 @@ import styles from "./Header.module.css";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/produk", label: "Produk" },
+  { href: "/produk", label: "Fitur" },
   { href: "/harga", label: "Harga" },
   { href: "/panduan", label: "Panduan" },
 ] as const;
@@ -79,10 +79,10 @@ export default function Header() {
 
         <Link
           href="/kontak"
-          title="Coba Demo Gratis JobFit"
+          title="Coba Gratis JobFit"
           className={`btn btnPrimary ${styles.ctaDesktop}`}
         >
-          Coba Demo Gratis
+          Coba Gratis
         </Link>
 
         <button
@@ -127,10 +127,10 @@ export default function Header() {
           ))}
           <Link
             href="/kontak"
-            title="Coba Demo Gratis JobFit"
+            title="Coba Gratis JobFit"
             className={`btn btnPrimary ${styles.mobileCta}`}
           >
-            Coba Demo Gratis
+            Coba Gratis
           </Link>
         </nav>
       )}

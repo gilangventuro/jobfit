@@ -57,7 +57,7 @@ function Note({ children }: { children: React.ReactNode }) {
 ───────────────────────────────────────────── */
 const PAGES: Record<string, { title: string; content: React.ReactNode }> = {
   home: {
-    title: "Selamat Datang di JobFit",
+    title: "Panduan JobFit",
     content: (
       <>
         <p>Selamat datang di <strong>JobFit</strong>! Platform rekrutmen yang membantu tim Anda mengelola seluruh proses hiring — mulai dari membuat lowongan, menerima lamaran, menyaring kandidat dengan AI, hingga proses penawaran kerja.</p>
@@ -1162,7 +1162,7 @@ const ALL_PAGES: NavPage[] = NAV.flatMap((s) => s.pages);
 export default function PanduanDocs() {
   const [currentId, setCurrentId] = useState("home");
   const [openSections, setOpenSections] = useState<Set<string>>(
-    () => new Set(NAV.map((s) => s.id))
+    () => new Set<string>()
   );
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -1175,17 +1175,15 @@ export default function PanduanDocs() {
     setCurrentId(id);
     setSidebarOpen(false);
     window.scrollTo({ top: 0, behavior: "smooth" });
-    /* open the section that contains this page */
+    /* accordion: open only the section that contains this page */
     const section = NAV.find((s) => s.pages.some((p) => p.id === id));
-    if (section) setOpenSections((prev) => new Set([...prev, section.id]));
+    if (section) setOpenSections(new Set([section.id]));
   }, []);
 
   const toggleSection = (id: string) => {
     setOpenSections((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
+      if (prev.has(id)) return new Set<string>();
+      return new Set([id]);
     });
   };
 
@@ -1211,13 +1209,12 @@ export default function PanduanDocs() {
         <span className={styles.mobileTitle}>{page?.title ?? ""}</span>
       </div>
 
+      <div className={styles.docsInner}>
       {/* SIDEBAR */}
       <aside className={`${styles.sidebar} ${sidebarOpen ? styles.sidebarOpen : ""}`}>
         <div className={styles.sidebarInner}>
-          <div className={styles.sidebarHeader}>
-            <strong>Dokumentasi JobFit</strong>
-          </div>
           <nav className={styles.nav} aria-label="Navigasi dokumentasi">
+            <div className={styles.navContainer}>
             {NAV.map((section) => {
               const open = openSections.has(section.id);
               const hasSingle = section.pages.length === 1;
@@ -1259,6 +1256,7 @@ export default function PanduanDocs() {
                 </div>
               );
             })}
+            </div>
           </nav>
         </div>
       </aside>
@@ -1294,6 +1292,7 @@ export default function PanduanDocs() {
           </nav>
         </article>
       </main>
+      </div>
     </div>
   );
 }

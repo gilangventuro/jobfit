@@ -25,10 +25,10 @@ export default function Hero() {
           <div className={`stagger-item ${styles.ctaRow}`}>
             <Link
               href="/kontak"
-              title="Coba Demo Gratis JobFit — psikotes online untuk rekrutmen"
+              title="Coba Gratis JobFit — psikotes online untuk rekrutmen"
               className="btn btnPrimary"
             >
-              Coba Demo Gratis
+              Coba Gratis
             </Link>
           </div>
 
