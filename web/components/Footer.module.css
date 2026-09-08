@@ -22,13 +22,14 @@
   }
 }
 
+.contactCol {
+  grid-column: 3;
+}
+
 .logoBox {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-white);
-  border-radius: var(--radius-md);
-  padding: var(--space-2) var(--space-4);
   margin-bottom: var(--space-4);
   width: fit-content;
 }

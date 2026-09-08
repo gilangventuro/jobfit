@@ -1,17 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Mail, MapPin, MessageCircle } from "lucide-react";
 import styles from "./Footer.module.css";
-
-const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/produk", label: "Produk" },
-  { href: "/harga", label: "Harga" },
-  { href: "/tentang-kami", label: "Tentang Kami" },
-  { href: "/#faq", label: "FAQ" },
-  { href: "/panduan", label: "Panduan" },
-  { href: "/kontak", label: "Kontak" },
-] as const;
 
 const CONTACT = {
   email: "Jobfit@venturo.pro",
@@ -33,7 +22,7 @@ export default function Footer() {
         <div>
           <div className={styles.logoBox}>
             <Image
-              src="/assets/logo.png"
+              src="/assets/pth.png"
               alt="Logo JobFit, platform psikotes online untuk rekrutmen"
               title="JobFit — Right Talent for Right Job"
               width={130}
@@ -48,20 +37,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div>
-          <h3 className={styles.heading}>Navigasi</h3>
-          <ul className={styles.linkList}>
-            {NAV_LINKS.map((link) => (
-              <li key={link.href}>
-                <Link href={link.href} title={link.label} className={styles.link}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
+        <div className={styles.contactCol}>
           <h3 className={styles.heading}>Kontak Kami</h3>
           <ul className={styles.contactList}>
             <li className={styles.contactItem}>
