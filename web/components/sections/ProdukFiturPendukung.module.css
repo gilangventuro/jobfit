@@ -9,6 +9,12 @@
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  .title {
+    margin-bottom: var(--space-8);
+  }
+}
+
 .card {
   background: var(--color-white);
   border-radius: var(--radius-xl);

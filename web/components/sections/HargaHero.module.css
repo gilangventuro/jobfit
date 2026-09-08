@@ -87,6 +87,12 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 640px) {
+  .statsRow {
+    gap: var(--space-6);
+  }
+}
+
 .statValue {
   display: block;
   font-family: var(--font-heading), "Poppins", sans-serif;

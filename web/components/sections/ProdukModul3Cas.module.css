@@ -9,6 +9,12 @@
   margin: 0 auto var(--space-12);
 }
 
+@media (max-width: 640px) {
+  .header {
+    margin-bottom: var(--space-8);
+  }
+}
+
 .title {
   font-size: var(--text-h2);
   margin-bottom: var(--space-4);
