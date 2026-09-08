@@ -28,7 +28,7 @@ export default function Hero() {
               title="Coba Gratis JobFit — psikotes online untuk rekrutmen"
               className="btn btnPrimary"
             >
-              Coba Gratis
+              Coba Sekarang Juga
             </Link>
           </div>
 
